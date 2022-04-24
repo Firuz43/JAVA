@@ -1,5 +1,7 @@
 package com.example.helloworld;
 
+import java.util.Date;
+
 public class HelloWorld {
     public static void main(String[] args) {
 //        long viewsCount = 3_123_456_789L;
@@ -8,7 +10,6 @@ public class HelloWorld {
 //        boolean isEligible = false;
         byte age = 30;
         Date now = new Date();
-
-        System.out.println(viewsCount);
+        System.out.println(now);
     }
 }
