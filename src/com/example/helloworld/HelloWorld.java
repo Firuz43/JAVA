@@ -6,8 +6,10 @@ import java.util.Arrays;
 
 public class HelloWorld {
     public static void main(String[] args) {
-        float pi = 3.14F;
-        pi = 1;
-        System.out.println(pi);
+        // Implicit casting
+        // byte -> short -> int -> long
+        int x = 1;
+        int y = x + 2;
+        System.out.println(y);
     }
 }
